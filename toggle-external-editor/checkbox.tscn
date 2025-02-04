@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://kna221gt5h51"]
+
+[ext_resource type="Script" uid="uid://bppc8yeean34x" path="res://addons/toggle_external_editor/checkbox.gd" id="1_pify1"]
+
+[node name="CheckBox" type="CheckBox"]
+offset_right = 93.0
+offset_bottom = 31.0
+button_pressed = true
+text = "external"
+script = ExtResource("1_pify1")
